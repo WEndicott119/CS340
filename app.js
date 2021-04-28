@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
-app.set('port', 8281);
+app.set('port', 8282);
 app.use(express.static('public'));
 
 app.get('/',function(req,res){
