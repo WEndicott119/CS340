@@ -1,10 +1,12 @@
 <html>
 <head>
   <title>coaches</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
   <body>
     <div>
-    <h1>Coaches</h1>
+    <h1><i class="fa fa-soccer-ball-o" style="font-size:36px"></i>Coaches<i class="fa fa-soccer-ball-o" style="font-size:36px"></i></h1>
     <form>
       Coach ID:
       <input type="text" name="coach_id">
@@ -34,12 +36,14 @@
       Team ID:
       <input type="text" name="team_id">
     </form>
-    <input type="submit" value="Submit" />
+    <div class="text-center">
+    <input class="button" type="submit" value="Submit" />
     </div>
+  </div>
     <br>
     <br>
     <div>
-      <table>
+      <table class="chart">
       <thead>
         <tr>
           <th>First Name</th>
@@ -50,14 +54,14 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr class="tb">
           <td>Bob</td>
           <td>Bradley</td>
           <td>(123) 456-7890</td>
           <td>Bob@hello.com</td>
           <td>LA FC</td>
         </tr>
-        <tr>
+        <tr class="tb">
           <td>Dominic</td>
           <td>Kinnear</td>
           <td>(123) 456-7890</td>

@@ -1,10 +1,12 @@
 <html>
 <head>
   <title>players</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
   <body>
 
-    <h1>Players</h1>
+    <h1><i class="fa fa-soccer-ball-o" style="font-size:36px"></i>Players<i class="fa fa-soccer-ball-o" style="font-size:36px"></i></h1>
     <form>
       Player ID:
       <input type="text" name="player_id">
@@ -34,11 +36,13 @@
       Team ID:
       <input type="text" name="team_id">
     </form>
+    <div class="text-center">
     <input type="submit" value="Submit" />
+  </div>
     <br>
     <br>
     <div>
-      <table>
+      <table class="chart">
       <thead>
         <tr>
           <th>First Name</th>
@@ -49,14 +53,14 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr class="tb">
           <td>Zlatan</td>
           <td>Ibrahimovic</td>
           <td>(123) 456-7890</td>
           <td>Zlatan@hello.com</td>
           <td>FC Dallas</td>
         </tr>
-        <tr>
+        <tr class="tb">
           <td>Eddie</td>
           <td>Munjoma</td>
           <td>(123) 456-7890</td>
