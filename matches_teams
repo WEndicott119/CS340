@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title>matches_teams</title>
+</head>
+  <body>
+
+    <h1>Schedule</h1>
+    <form>
+      Schedule ID:
+      <input type="text" name="matches_teams_id">
+    </form>
+
+    <form>
+      Home Team:
+      <input type="text" name="team_id">
+    </form>
+
+    <form>
+      Visiting Team:
+      <input type="text" name="team_id">
+    </form>
+
+    <form>
+      Match ID:
+      <input type="text" name="match_id">
+    </form>
+
+  </body>
+</html>
