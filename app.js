@@ -36,6 +36,9 @@ app.get('/venues',function(req,res){
   res.render('venues');
 });
 
+app.get('/matches_teams',function(req,res){
+  res.render('matches_teams');
+});
 
 app.use(function(req,res){
   res.status(404);
