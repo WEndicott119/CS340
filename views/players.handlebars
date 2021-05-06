@@ -8,11 +8,6 @@
 
     <h1><i class="fa fa-soccer-ball-o" style="font-size:36px"></i>Players<i class="fa fa-soccer-ball-o" style="font-size:36px"></i></h1>
     <form>
-      Player ID:
-      <input type="text" name="player_id">
-    </form>
-
-    <form>
       First name:
       <input type="text" name="pf_name">
     </form>
@@ -59,6 +54,10 @@
           <td>(123) 456-7890</td>
           <td>Zlatan@hello.com</td>
           <td>FC Dallas</td>
+          <div class="tbuttons">
+          <input type="Edit" value="Edit"/>
+          <input type="Delete" value="Delete"/>
+        </div>
         </tr>
         <tr class="tb">
           <td>Eddie</td>
@@ -66,9 +65,20 @@
           <td>(123) 456-7890</td>
           <td>Eddie@hello.com</td>
           <td>FC Dallas</td>
+          <div class="tbuttons">
+          <input type="Edit" value="Edit"/>
+          <input type="Delete" value="Delete"/>
+        </div>
         </tr>
       </tbody>
     </table>
     </div>
+    <br>
+    <div class="text-center">
+      <form>
+        Team ID:
+        <input type="text" name="team_id"><input type="submit" value="Submit" />
+      </form>
+  </div>
   </body>
 </html>
