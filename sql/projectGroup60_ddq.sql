@@ -53,6 +53,7 @@ CREATE TABLE `matches` (
 	`year` varchar(255) NOT NULL,
 	`home_score` int(11),
 	`visiting_score` int(11),
+	`venue_id` int(11) NOT NULL,
 	FOREIGN KEY (`venue_id`) REFERENCES `venues` (`venue_id`),
 	PRIMARY KEY(`match_id`),
 	UNIQUE KEY `match` (`match_id`)
